@@ -10,7 +10,6 @@
     <li><a href="#data-schema">Data Schema</a></li>
     <li><a href="#challenge">Challenge</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
