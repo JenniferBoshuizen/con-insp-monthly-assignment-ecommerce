@@ -1,4 +1,6 @@
-# con-insp-monthly-assignment-ecommerce
+# con-insp-monthly-assignment-ecommerce repo
+
+<a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -33,6 +35,7 @@ After a customer purchases the product from EStore a seller gets notified to ful
 ### Example of a product listing on a marketplace
 ![Product_Example](images/product_example.png)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Data Schema -->
 ## Data Schema
@@ -42,8 +45,10 @@ You can find the eight .csv files in the folder /data inside this repo. The data
 
 Note: There is a .csv file with the transalations of the product categories from Portuguese to English "data\product_category_name_translation.csv"
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CHALLENGE -->
-## Challenge
+## Challenge 
 The challenge is to build an end-to-end data engineering and analysis project and share your findings. Dive into the dataset from EStore, explore the rich data, and derive insights on any business aspect that intrigues you. Just be sure to clearly define the business task(s) you are analyzing. Use any tools or environments that suit your workflow better, such as Databricks, VSCode, Jupyter notebooks, Azure Data Factory, Fabric, or other tools to conduct your analysis.
 
 While you're free to select any business task(s) for analysis, below are some examples to spark your ideas. Remember, these are just suggestions, and you're not bound to follow them. 
@@ -70,6 +75,8 @@ With purchase date information you'll be able to predict future sales
 - <b>NLP:</b>
 This dataset offers an environment to parse out the reviews text through its multiple dimensions.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 ## Getting started
 
@@ -90,6 +97,8 @@ customers = pd.read_csv("data/customers_dataset.csv")
 customers.head()
 ```
 ![Product_Example](images/df_screenshot.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
