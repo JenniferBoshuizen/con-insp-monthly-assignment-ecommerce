@@ -82,13 +82,13 @@ This dataset offers an environment to parse out the reviews text through its mul
 
 #### You should follow the step below to do you analysis:
 
-1. Fork this repository with the data.
-2. Clone your forked repo to your prefered workspace (Databricks, VSCode, Jupyter notebooks, Azure Data Factory, Fabric, etc..)
+1. Fork this repository with the EStore data.
+2. Clone your forked repo to your preferred workspace (Databricks, VSCode, Jupyter notebooks, Azure Data Factory, Fabric, etc..)
 3. Define business task(s)
 4. Data Preparation
 5. Data Processing
 6. Feature Enginering
-7. Data Anlysis
+7. Data Analysis
 
 #### Code snippet for importing a CSV file.
 ```py
