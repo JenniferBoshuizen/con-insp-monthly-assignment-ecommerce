@@ -1,0 +1,19 @@
+{
+	"name": "ParquetCleaned",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "cleaned"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
