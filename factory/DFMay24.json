@@ -4,7 +4,8 @@
 		"globalConfigurations": {
 			"PipelineBillingEnabled": "true",
 			"factoryStagingLSReferenceName": "AzureBlobStorage",
-			"factoryStagingLSType": "LinkedServiceReference"
+			"factoryStagingLSType": "LinkedServiceReference",
+			"factoryStagingFolderPath": "basecontainer"
 		}
 	},
 	"location": "westeurope"
