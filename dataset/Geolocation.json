@@ -1,0 +1,44 @@
+{
+	"name": "Geolocation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "geolocation_dataset.csv",
+				"container": "basecontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "geolocation_zip_code_prefix",
+				"type": "String"
+			},
+			{
+				"name": "geolocation_lat",
+				"type": "String"
+			},
+			{
+				"name": "geolocation_lng",
+				"type": "String"
+			},
+			{
+				"name": "geolocation_city",
+				"type": "String"
+			},
+			{
+				"name": "geolocation_state",
+				"type": "String"
+			}
+		]
+	}
+}

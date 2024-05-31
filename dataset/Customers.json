@@ -1,0 +1,44 @@
+{
+	"name": "Customers",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "customers_dataset.csv",
+				"container": "basecontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "customer_id",
+				"type": "String"
+			},
+			{
+				"name": "customer_unique_id",
+				"type": "String"
+			},
+			{
+				"name": "customer_zip_code_prefix",
+				"type": "String"
+			},
+			{
+				"name": "customer_city",
+				"type": "String"
+			},
+			{
+				"name": "customer_state",
+				"type": "String"
+			}
+		]
+	}
+}

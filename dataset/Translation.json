@@ -1,0 +1,32 @@
+{
+	"name": "Translation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "product_category_name_translation.csv",
+				"container": "basecontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "product_category_name",
+				"type": "String"
+			},
+			{
+				"name": "product_category_name_english",
+				"type": "String"
+			}
+		]
+	}
+}

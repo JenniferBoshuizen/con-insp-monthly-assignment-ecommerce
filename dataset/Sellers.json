@@ -1,0 +1,40 @@
+{
+	"name": "Sellers",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "sellers_dataset.csv",
+				"container": "basecontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "seller_id",
+				"type": "String"
+			},
+			{
+				"name": "seller_zip_code_prefix",
+				"type": "String"
+			},
+			{
+				"name": "seller_city",
+				"type": "String"
+			},
+			{
+				"name": "seller_state",
+				"type": "String"
+			}
+		]
+	}
+}
