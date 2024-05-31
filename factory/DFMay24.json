@@ -2,7 +2,9 @@
 	"name": "DFMay24",
 	"properties": {
 		"globalConfigurations": {
-			"PipelineBillingEnabled": "true"
+			"PipelineBillingEnabled": "true",
+			"factoryStagingLSReferenceName": "AzureBlobStorage",
+			"factoryStagingLSType": "LinkedServiceReference"
 		}
 	},
 	"location": "westeurope"
